@@ -1,0 +1,92 @@
+/* geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'nunito';
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-color: #1D3C78;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: 14px;
+    color: #1877F2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2851A3;
+}
+
+img {
+    width: 150px;
+}
+
+/* container */
+
+#container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* form */
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #1877F2;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #1877F2;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2851A3;
+}
+
